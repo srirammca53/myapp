@@ -1,0 +1,42 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @dairy.name %>
+</p>
+
+<p>
+  <b>Mobile:</b>
+  <%= @dairy.mobile %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%= @dairy.address %>
+</p>
+
+<p>
+  <b>Relation:</b>
+  <%= @dairy.relation %>
+</p>
+
+<p>
+  <b>Dob:</b>
+  <%= @dairy.dob %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @dairy.location %>
+</p>
+<p>
+  <b>email:</b>
+  <%= @dairy.email %>
+</p>
+<p>
+  <b>email_confirmation:</b>
+  <%= @dairy.email_confirmation %>
+</p>
+
+<%= link_to 'Edit', edit_dairy_path(@dairy) %> |
+<%= link_to 'Back', dairies_path %>
